@@ -17,7 +17,7 @@ function Footer() {
               </div>
 
               <div>
-                <p className={'text-sm text-gray-500 dark:text-gray-400'}>Add a short tagline about your prodsuct</p>
+                <p className={'text-sm text-gray-500 dark:text-gray-400'}>Innovate. Transform. Soar Higher with Sky Digi Soft.</p>
               </div>
 
               <div className={'flex text-xs text-gray-500 dark:text-gray-400'}>

@@ -9,7 +9,7 @@ export const configuration = {
     themeColor: '#ffffff',
     themeColorDark: '#0a0a0a',
     siteUrl: process.env.NEXT_PUBLIC_SITE_URL,
-    siteName: 'Awesomely',
+    siteName: 'Sky Digi Soft',
     twitterHandle: '',
     githubHandle: '',
     convertKitFormId: '',

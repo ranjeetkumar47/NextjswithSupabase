@@ -5,10 +5,6 @@ import NavigationMenu from '@/core/ui/Navigation/NavigationMenu'
 import NavigationMenuItem from '@/core/ui/Navigation/NavigationItem'
 
 const links = {
-  Home: {
-    label: 'Home',
-    path: '/home'
-  },
   SignIn: {
     label: 'Sign In',
     path: '/auth/sign-in'
@@ -39,7 +35,6 @@ const SiteNavigation = () => {
       <div className={'hidden items-center space-x-0.5 lg:flex'}>
         <NavigationMenu>
           <NavigationMenuItem className={'flex lg:hidden'} link={links.SignIn} />
-          <NavigationMenuItem className={className} link={links.Home} />
           <NavigationMenuItem className={className} link={links.Blog} />
           <NavigationMenuItem className={className} link={links.Docs} />
           <NavigationMenuItem className={className} link={links.Pricing} />
