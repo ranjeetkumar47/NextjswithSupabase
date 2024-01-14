@@ -1,12 +1,12 @@
-import Footer from './components/Footer'
-import Header from './components/Header'
+// import Footer from './components/Footer'
+import SiteHeader from './components/SiteHeader'
 
 async function SiteLayout(props: React.PropsWithChildren) {
   return (
     <>
-      <Header />
+      <SiteHeader />
       {props.children}
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
