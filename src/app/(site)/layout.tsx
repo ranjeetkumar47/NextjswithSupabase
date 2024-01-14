@@ -1,4 +1,4 @@
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 import SiteHeader from './components/SiteHeader'
 
 async function SiteLayout(props: React.PropsWithChildren) {
@@ -6,7 +6,7 @@ async function SiteLayout(props: React.PropsWithChildren) {
     <>
       <SiteHeader />
       {props.children}
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }
