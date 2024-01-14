@@ -1,12 +1,13 @@
-import Link from 'next/link';
-import LogoImageMini from '~/core/ui/Logo/LogoImageMini';
+import Link from 'next/link'
+import React from 'react'
+import LogoImageMini from '@/core/ui/Logo/LogoImageMini'
 
-const LogoMini: React.FCC<{ href?: string }> = ({ href }) => {
+const LogoMini: React.FC<{ href?: string }> = ({ href }) => {
   return (
     <Link href={href ?? '/'}>
       <LogoImageMini />
     </Link>
-  );
-};
+  )
+}
 
-export default LogoMini;
+export default LogoMini

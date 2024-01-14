@@ -3,7 +3,7 @@
 import Link from 'next/link'
 import { cn as classNames } from '@/core/generic/shadcn-utils'
 import { cva, VariantProps } from 'class-variance-authority'
-import { forwardRef } from 'react'
+import React, { forwardRef } from 'react'
 
 import If from './If'
 import Spinner from './Spinner'
