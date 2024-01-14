@@ -1,9 +1,9 @@
-import React, { FunctionComponent, ReactNode } from 'react'
+import React, { FC, ReactNode } from 'react'
 
 interface ContainerProps {
   children: ReactNode
 }
-const Container: FunctionComponent<ContainerProps> = ({ children }) => {
+const Container: FC<ContainerProps> = ({ children }) => {
   return <div className="container mx-auto px-5">{children}</div>
 }
 

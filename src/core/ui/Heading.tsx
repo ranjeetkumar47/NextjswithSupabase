@@ -1,9 +1,9 @@
 import classNames from 'clsx'
-import React from 'react'
+import React, { ReactNode } from 'react'
 
 type HeadingType = 1 | 2 | 3 | 4 | 5 | 6
 
-const Heading: React.FCC<{ type?: HeadingType; className?: string }> = ({ type, children, className }) => {
+const Heading: React.FC<{ type?: HeadingType; className?: string; children: ReactNode }> = ({ type, children, className }) => {
   switch (type) {
     case 1:
       return <h1 className={classNames(`font-heading scroll-m-20 text-4xl font-bold tracking-tight dark:text-white`, className)}>{children}</h1>
